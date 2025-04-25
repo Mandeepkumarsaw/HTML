@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <body>
+       <form>
+            <label for="ramji">Name:-</label>
+            <input type="text" id="ramji" > 
+            <br><br>
+            <!-- here ramji var is used as show direction sense ,when you click on name then you direct move to the box(to enter value) -->
+   
+            <label for="sitaji">Age</label>
+            <input type="number" id="sitaji">
+            <br><br>
+   
+            <button>Submit</button>
+   
+   
+            <h2>To understand it see below</h2>
+            
+   
+            <!-- #CASE-1 -->
+            <label for="">NAME:-</label>
+            <input type="text">
+             
+            <br><br>
+   
+            <!-- CASE-2 -->
+             <label for="bali">NAAM LIKHE:-</label>
+             <input type="text" id="bali" name="FNAME">
+             <!-- to see diff enter on name -->
+              <!--name tag is used to store data in database ,here "name" is used to do this
+              & "FNAME" is commonly a second name of "NAAM LIKHE"  BUT IN Server Side only
+              , the value enter in name  tag is 1must be unique.. -->
+           
+             <br><br>
+   
+             <!-- CASE-3 -->
+             <label for="sugriv">NAME:-</label>
+             <input type="text" id="sugriv" required>
+              <!--Required show that without this filled ypu can't submit form-->
+   
+              <br><br>
+   
+              <!-- CASE-4 -->
+              <label for="hanuman">NAME:-</label>
+              <input type="text" id="hanuman" value="VAYUPUTRA">
+   
+              <BR><BR>
+   
+               <!-- CASE-5 -->
+               <label for="">NAME:-</label>
+               <input type="text" id="hanuman" placeholder="VIBHISHANA">
+   
+             <button>submit</button>
+       </form>
+   </body>
+</html>

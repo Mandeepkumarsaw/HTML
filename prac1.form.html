@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+   <body>
+       <form>
+           <h1>User Registration</h1>
+       
+           <label for="dada">Username:-</label>
+           <input type="text"  placeholder="enter your username" id="dada" name="clientname" required>
+           
+       
+           <br><br>
+           
+           <label for="papa">Email:-</label>
+           <input type="email" id="papa" name="clientmail" value="abc123@gmail.com">
+       
+           <br><br>
+       
+           <label for="mammi">Password:-</label>
+           <input type="password" id="mammi" name="clientpass" placeholder="enter your password">
+       
+           <br><br>
+           
+           <label>Gender:</label>
+           <input type="radio" id="clientmale" name="gender">
+           <label for="clientmale">Male</label>
+           <input type="radio" id="clientfemale" name="gender">
+           <label for="clientfemale">Female</label>
+           <input type="radio" id="clientgender" name="gender">
+           <label for="clientgender">Others</label >
+               <!-- here you think i done a mistake by writing same name to all as gender but here i do "GROUPING" means this can be done to snd only one gender to the server
+                & due to this no all three radio buttons can be filled at same time...:-)
+                & acc to here in seerver data is saved as gender=male/female/others(set name=value)-->
+           
+       
+           <br><br>
+       
+       
+           <input type="checkbox" id="terms" name="clientapprovalsinfo">
+           <label for="terms">I agree to all the terms and conditions</label>
+       
+           <br><br>
+           
+       
+           <button>Register</button>
+      </form>
+   </body>
+</html>
